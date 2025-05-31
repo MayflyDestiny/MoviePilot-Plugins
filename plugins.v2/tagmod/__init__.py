@@ -21,15 +21,15 @@ class TagMod(_PluginBase):
     # 插件名称
     plugin_name = "自动标签魔改版"
     # 插件描述
-    plugin_desc = "给qb、tr的下载任务贴标签(支持自定义、魔改日志输出)"
+    plugin_desc = "给qb、tr的下载任务贴标签(支持自定义)"
     # 插件图标
     plugin_icon = "Youtube-dl_B.png"
     # 插件版本
-    plugin_version = "1.2.2" # 如果功能有显著变化，可以考虑更新版本号
+    plugin_version = "1.1" # 如果功能有显著变化，可以考虑更新版本号
     # 插件作者
-    plugin_author = "ClarkChen"
+    plugin_author = "MayflyDestinyn"
     # 作者主页
-    author_url = "https://github.com/aClarkChen"
+    author_url = "https://github.com/MayflyDestiny"
     # 插件配置项ID前缀
     plugin_config_prefix = "TagMod_"
     # 加载顺序
@@ -37,7 +37,7 @@ class TagMod(_PluginBase):
     # 可使用的用户级别
     auth_level = 2
     # 日志前缀
-    LOG_TAG = "[Tag]"
+    LOG_TAG = "[TagMod]"
 
     # 退出事件
     _event = threading.Event()
